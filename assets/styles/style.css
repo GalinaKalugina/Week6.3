@@ -1,0 +1,34 @@
+.header{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    background: url(../images/image11.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+.menu{
+    display: flex;
+    justify-content: flex-end;
+    width: 95%;
+    list-style-type: none;
+    font-size: 10px;
+}
+.slogan{
+    display: grid;
+    grid-area: span;
+    align-self: center;
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+.footer{
+    display: grid;
+    grid-area: 5/2;
+    background-color: #F2F2F2;
+    background-size: cover;
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    justify-content: center;
+}
